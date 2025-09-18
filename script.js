@@ -96,7 +96,7 @@ function getBirthYearMovies(e){
 
             let counter = 0;
             for(let i = 0; counter < 6; i++){
-                if(json.results[i].poster_path === null){
+                if(json.results[i].poster_path === ""){
                     continue;
                 }else{
                     html += `
